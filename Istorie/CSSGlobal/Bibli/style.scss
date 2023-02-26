@@ -1,0 +1,41 @@
+@import "../startup/style.css";
+
+
+// Start Developing
+
+body{
+    background: #101010;
+    color:#f1f1f1;
+
+    width:100%;
+
+  overflow-x: hidden;
+}
+
+a:hover{
+    cursor:pointer;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+.bibli{margin: 0% 4%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  h1{
+    text-decoration:none;
+    color: #f1f1f1;
+    font-size: clamp(24px, 1vw, 42px);
+    font-family: 'RocknRoll One', sans-serif;
+  }
+  a{
+    text-decoration:none;
+    color: #f1f1f1;
+    padding: .5%;
+    font-size: clamp(16px, 1vw, 32px);
+    font-family: 'RocknRoll One', sans-serif;
+  }
+  a:hover{
+    color: #454242;
+  }
+}

@@ -1,0 +1,63 @@
+@import "../startup/style.css";
+
+
+// Start Developing
+
+body{
+    background: #101010;
+    color:#f1f1f1;
+    width:100%;
+
+  overflow-x: hidden;
+}
+
+a:hover{
+    cursor:pointer;
+}
+
+.quiz{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5%;
+  
+  iframe{
+    width:50vw;
+    height: 44vw;
+    @media (min-width: 320px) and (max-width: 1024px) {
+      width:90%;
+      height: 60vw;
+    }
+    padding: 0% 0% 5% 0%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    left:0%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  h2{
+    text-decoration:none;
+    color: #f1f1f1;
+    font-size: clamp(24px, 1vw, 42px);
+    font-family: 'RocknRoll One', sans-serif;
+  }
+  
+  a{
+    text-decoration:none;
+    color: #f1f1f1;
+    padding: .5%;
+    font-size: clamp(16px, 1vw, 32px);
+    font-family: 'RocknRoll One', sans-serif;
+  }
+  a:hover{
+    color: #454242;
+  }
+}
